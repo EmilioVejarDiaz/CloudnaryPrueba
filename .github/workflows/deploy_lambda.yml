@@ -26,7 +26,7 @@ jobs:
           pip install aws-sam-cli
 
       - name: Package AWS SAM Application
-        run: sam build --template template.yml
+        run: sam build --template template.yaml
 
       - name: Deploy AWS SAM Application
-        run: sam deploy --template-file .aws-sam/build/template.yaml --stack-name <nombre_del_stack> --capabilities CAPABILITY_IAM
+        run: sam deploy --template-file .aws-sam/build/template.yaml --stack-name Linkelink1 --capabilities CAPABILITY_IAM
