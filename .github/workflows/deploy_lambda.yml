@@ -29,4 +29,4 @@ jobs:
         run: sam build --template template.yaml
 
       - name: Deploy AWS SAM Application
-        run: sam deploy --template-file .aws-sam/build/template.yaml --stack-name Linkelink1 --capabilities CAPABILITY_IAM
+        run: sam deploy --template-file .aws-sam/build/template.yaml --stack-name Linkelink2 --capabilities CAPABILITY_IAM
